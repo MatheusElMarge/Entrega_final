@@ -1,0 +1,113 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+.whitespace{
+    margin-right: 300px;
+    padding-top: 20px;
+
+}
+.opcoes div{
+    display:flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+body{
+
+    background-size: 240vh;
+    
+    padding: 0px;
+    font-family: Inter;
+    background-color:#043873 ;
+}
+.homeimg{
+    position: absolute;
+    margin-top: 150px;
+    z-index: 1;
+}
+.texthome{
+
+    padding-top: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.texthome h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.textodomeio{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    color: #FFFFFF;
+}
+.homeimg img{
+    width: 100%;
+}
+.buttonhome{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: #4F9CF9;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+ .center{
+    font-family: 'Inter';
+    font-style: bolds;
+    font-weight: 300px;
+    font-size: 130px;
+    line-height: 77px;
+    width: 1480px;
+    height: 77px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.opcoes{
+    
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+.login{
+    background: #FFE492;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    color: #043873;
+    
+}
+.tryfree{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: #4F9CF9;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+button{
+    border:none;
+}
+.primeira{
+    height: 100vh;
+}
